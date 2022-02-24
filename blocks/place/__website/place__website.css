@@ -1,0 +1,6 @@
+.place__website {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 32px;
+  align-self: end;
+}
