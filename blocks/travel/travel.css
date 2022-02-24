@@ -1,0 +1,27 @@
+.travel {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  box-sizing: border-box;
+  width: calc(100% - 296px);
+}
+
+@media screen and (max-width: 1279px) {
+  .travel {
+    min-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .travel {
+    width: calc(100% - 96px);
+    min-width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .travel {
+    width: 100%;
+    min-width: 320px;
+  }
+}

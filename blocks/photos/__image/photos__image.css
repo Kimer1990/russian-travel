@@ -1,0 +1,6 @@
+.photos__image {
+  display: block;
+  width: 100%;
+  object-fit: fill;
+  max-width: 460px;
+}

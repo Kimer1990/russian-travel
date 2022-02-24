@@ -1,0 +1,5 @@
+.header__language-link_active {
+  text-decoration-line: underline;
+  pointer-events: none;
+  cursor: default;
+}

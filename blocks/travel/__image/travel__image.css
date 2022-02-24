@@ -1,0 +1,9 @@
+.travel__image {
+  margin: 0;
+}
+
+.travel__image img {
+  display: block;
+  width: 100%;
+  object-fit: fill;
+}
