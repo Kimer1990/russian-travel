@@ -1,9 +1,5 @@
 .intro {
   width: calc(100% - 296px);
-}
-
-.intro div {
-  width: 690px;
   display: flex;
   flex-flow: column;
 }
@@ -19,19 +15,11 @@
     width: calc(100% - 96px);
     min-width: 720px;
   }
-
-  .intro div {
-    width: 720px;
-  }
 }
 
 @media screen and (max-width: 767px) {
   .intro {
     width: calc(100% - 48px);
     min-width: 288px;
-  }
-
-  .intro div {
-    width: auto;
   }
 }

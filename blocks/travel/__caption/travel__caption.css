@@ -1,10 +1,24 @@
 .travel__caption {
   margin: 0;
-  margin-top: 8px;
+  padding-top: 8px;
   font-weight: normal;
   font-size: 10px;
   line-height: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+@media screen and (max-width: 863px) {
+  .travel__caption {
+    max-width: calc(100vw - 48px);
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .travel__caption {
+    width: calc(100vw - 24px);
+    min-width: 288px;
+  }
 }

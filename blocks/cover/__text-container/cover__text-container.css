@@ -1,4 +1,4 @@
-.baikal__text-container {
+.cover__text-container {
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -8,10 +8,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
   pointer-events: none;
+  z-index: 1;
 }
 
 @media screen and (max-width: 767px) {
-  .baikal__text-container {
+  .cover__text-container {
     width: 288px;
     height: 134px;
   }
